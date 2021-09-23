@@ -39,6 +39,9 @@ p {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.container {
+  width: 1170px;
+}
 .logo {
   color: var(--active-text);
   font-family: Raleway;
@@ -54,9 +57,21 @@ p {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+.nav-link {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
 .nav:hover,
 .nav:focus {
   color: var(--active-text);
+}
+.main-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.main-nav .nav + .nav {
+  margin-left: 50px;
 }
 .contacts {
   color: var(--main-text);
@@ -64,6 +79,17 @@ p {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+}
+.main-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.main-contacts .contacts + .contacts {
+  margin-left: 50px;
+}
+.main {
+  display: flex;
+  align-items: center;
 }
 .header {
   background-color: var(--white-color);
@@ -75,6 +101,8 @@ p {
   border: none;
   font-size: 16px;
   line-height: 1.9;
+  text-align: center;
+  margin: 0 auto;
 }
 .hero {
   background-color: var(--secondary-background);
