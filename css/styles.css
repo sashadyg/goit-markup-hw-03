@@ -127,6 +127,13 @@ p {
   background-color: var(--white-color);
 }
 
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  background-color: var(--secondary-background);
+}
+
 .btn {
   background-color: var(--active-text);
   font-family: Roboto, sans-serif;
@@ -134,10 +141,16 @@ p {
   border: none;
   font-size: 16px;
   line-height: 1.9;
+  border-radius: 4px;
+  text-align: center;
+
+  padding: 10px 32px;
+  width: 200px;
 }
 
-.hero {
-  background-color: var(--secondary-background);
+.hero-btn {
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -148,6 +161,10 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .nav-address {
@@ -168,6 +185,38 @@ p {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.peculiarities-text {
+  width: 270px;
+}
+
+.peculiarities:not(:last-child) {
+  margin-right: 30px;
+}
+
+.peculiarities-items {
+  display: flex;
+}
+
+.peculiarities-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-title-images {
+  display: flex;
+}
+
+.images-container {
+  margin-bottom: 94px;
+}
+
+.images {
+  width: 370px;
+  margin-right: 30px;
 }
 
 .team-title {
@@ -176,6 +225,8 @@ p {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
 }
 
 .names {
