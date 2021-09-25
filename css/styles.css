@@ -136,7 +136,9 @@ p {
 .hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
+}
 
+.hero {
   background-color: var(--secondary-background);
 }
 
@@ -277,6 +279,9 @@ p {
 
 .team-container {
   padding-bottom: 94px;
+}
+
+.team-bg {
   background-color: var(--third-bg-color);
 }
 
@@ -302,6 +307,15 @@ p {
   cursor: pointer;
 }
 
+.btn-items {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-items .btn-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .active-btn {
   font-family: Roboto;
   font-weight: 500;
@@ -309,6 +323,14 @@ p {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+
+.btn-container {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .current-btn {
@@ -316,11 +338,35 @@ p {
   background-color: var(--active-text);
 }
 
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.examples-item {
+  width: calc((100% - 90) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.examples-container {
+  padding-bottom: 94px;
+}
+
 .example-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  display: block;
+  width: 322px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4px;
+  margin-top: 20px;
 }
 
 .example-text {
@@ -328,6 +374,11 @@ p {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+
+  display: block;
+  width: 322px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .accent-footer {
