@@ -67,13 +67,6 @@ p {
   padding-right: 15px;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .logo {
   color: var(--active-text);
   font-family: Raleway;
@@ -84,11 +77,6 @@ p {
 
   display: flex;
   margin-right: 93px;
-}
-
-.footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .nav {
@@ -131,15 +119,22 @@ p {
 
 .header {
   background-color: var(--white-color);
+
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
-.hero-container {
-  padding-top: 200px;
-  padding-bottom: 200px;
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .hero {
   background-color: var(--secondary-background);
+
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .btn {
@@ -181,13 +176,16 @@ p {
 
 .footer {
   background-color: var(--secondary-background);
+
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .nav-telm {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.peculiarities-title {
+.feature-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -197,19 +195,19 @@ p {
   margin-bottom: 10px;
 }
 
-.peculiarities-text {
+.feature-text {
   width: 270px;
 }
 
-.peculiarities:not(:last-child) {
+.feature-items .feature-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.peculiarities-items {
+.feature-items {
   display: flex;
 }
 
-.peculiarities-container {
+.feature {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -218,11 +216,11 @@ p {
   display: flex;
 }
 
-.images-container {
+.images {
   margin-bottom: 94px;
 }
 
-.images {
+.images-items {
   width: 370px;
   margin-right: 30px;
 }
@@ -277,12 +275,10 @@ p {
   margin-bottom: 30px;
 }
 
-.team-container {
-  padding-bottom: 94px;
-}
-
 .team-bg {
   background-color: var(--third-bg-color);
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .current {
@@ -310,6 +306,7 @@ p {
 .btn-items {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .btn-items .btn-item:not(:last-child) {
@@ -328,14 +325,21 @@ p {
   border-radius: 4px;
 }
 
-.btn-container {
-  padding-top: 94px;
-  padding-bottom: 50px;
-}
-
 .current-btn {
   color: var(--white-color);
   background-color: var(--active-text);
+}
+
+.main-content {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.example-box {
+  display: block;
+  width: 370px;
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .examples {
@@ -351,10 +355,6 @@ p {
   margin-top: 30px;
 }
 
-.examples-container {
-  padding-bottom: 94px;
-}
-
 .example-title {
   font-weight: 700;
   font-size: 18px;
@@ -363,10 +363,6 @@ p {
 
   display: block;
   width: 322px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 4px;
-  margin-top: 20px;
 }
 
 .example-text {
@@ -377,8 +373,6 @@ p {
 
   display: block;
   width: 322px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .accent-footer {
